@@ -8,7 +8,7 @@
       <link href="styles.css" rel="stylesheet">
   </head>
 
-  <body>
+  <body class="bg-light-subtle">
 
     <header>
       <nav class="navbar navbar-expand-lg border-bottom fixed-top bg-white p-3">
@@ -44,18 +44,18 @@
 
     <main class="container-fluid">
 
-      <div class="px-4 py-5 my-5 text-start bg-color">
+      <div class="px-2 pt-5 pb-2 text-start">
           <h3 class="text-start mt-5 pt-5 lead">Hello 👋</h3>
-          <div class="col-sm-12 mt-4 mb-5 pb-5">
+          <div class="col-sm-9 mt-4 mb-5 pb-5">
               <h1>I'm Kirill! A Web Developer Building Awesome Webapps And Websites That Powers The Internet</h1>
               <a href="#projects" class="btn btn-lg btn-primary mt-4 mb-5">Projects</a>
           </div>
       </div>
 
-      <div class="px-4 py-5 my-5 text-start bg-color" id="about">
+      <div class="px-2 pt-5 pb-2 text-start" id="about">
         <h3 class="mt-5 pt-5 lead">About 🙋🏻‍♂️</h3>
         <div class="col-sm-12 mt-4 mb-5 pb-5">
-          <h1>Here you will find more information about me, what I do, and list of my current skills in programming</h1>
+          <h1 class="col-sm-9">Here you will find more information about me, what I do, and list of my current skills in programming</h1>
           <div class="row">
             <div class="col-md-5 mt-4 mb-5 pt-5">
               <h5>My Story</h5>
@@ -68,24 +68,24 @@
               </p>
             </div>
 
-            <div class="col-md-4 offset-md-3 mt-4 mb-5 pt-5">
+            <div class="col-md-4 offset-md-2 mt-4 mb-5 pt-5">
               <h5>My skills</h5>
-              <ul class="about__skills mt-4">
-                <li class="about__skill">PYTHON3</li>
-                <li class="about__skill">DJANGO</li>
-                <li class="about__skill">DRF</li>
-                <li class="about__skill">FLASK</li>
-                <li class="about__skill">NGINX</li>
-                <li class="about__skill">GUNICORN</li>
-                <li class="about__skill">DOCKER</li>
-                <li class="about__skill">GIT</li>
-                <li class="about__skill">GITHUB</li>
-                <li class="about__skill">MYSQL</li>
-                <li class="about__skill">UBUNTU</li>
-                <li class="about__skill">AIOGRAM</li>
-                <li class="about__skill">HTML</li>
-                <li class="about__skill">CSS</li>
-                <li class="about__skill">BOOTSTRAP</li>
+              <ul class="skills mt-4">
+                <li class="skill">PYTHON3</li>
+                <li class="skill">DJANGO</li>
+                <li class="skill">DRF</li>
+                <li class="skill">FLASK</li>
+                <li class="skill">NGINX</li>
+                <li class="skill">GUNICORN</li>
+                <li class="skill">DOCKER</li>
+                <li class="skill">GIT</li>
+                <li class="skill">GITHUB</li>
+                <li class="skill">MYSQL</li>
+                <li class="skill">UBUNTU</li>
+                <li class="skill">AIOGRAM</li>
+                <li class="skill">HTML</li>
+                <li class="skill">CSS</li>
+                <li class="skill">BOOTSTRAP</li>
               </ul>
             </div>
 
@@ -93,47 +93,47 @@
         </div>
       </div>
 
-
-      <div class="px-5 py-5 my-5 text-start bg-color" id="projects">
+      <div class="px-2 pt-5 text-start" id="projects">
         <h3 class="text-start mt-5 pt-5 lead">Projects 🛠️</h3>
         <div class="col-sm-12 mt-4 mb-5 pb-5">
-          <h1>Here you will find some of the main personal projects that I created with the project details</h1>
+          <h1 class="col-sm-9">Here you will find some of the main personal projects that I created with the project details</h1>
           <div class="row">
 
-            <div class="col-md-5 mt-4 mb-5 pt-5">
-              <div class="ratio ratio-16x9"><img src="bugtracker.png" class="img-fluid" style="width: fit-content; height: fit-content;"></div>
+            <div class="col-md-6 mt-5 mb-5">
+              <div class="ratio image-hq"><img src="bugtracker.png" class="img-fluid"></div>
 
-              <h2 class="mt-5">BugTracker</h2>
+              <h2 class="mt-4">BugTracker</h2>
               <p class="lead mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, aliquid! 
-                Itaque corrupti magnam fugiat mollitia labore magni saepe veritatis voluptatum alias fugit.
-                Explicabo ducimus sequi aut corporis odio repellendus? Lorem ipsum dolor sit amet
+                This is a web application, a simple intuitive version of the bug tracker for single use 
+                without unnecessary (sometimes useless) things. Register and use it, without long attempts 
+                to figure out how, what and why works. In addition, here you will find Drag'n'drop of task cards 
+                on the project board, and convenient customization of the application for yourself: 
+                color mode (Light or Dark), language (English or Russian) and time zone
               </p> 
               <button type="button" class="btn btn-lg btn-primary mt-4 me-3">Live</button>
               <a href="https://github.com/Haenes/BugTracker" target="_blank" class="btn btn-lg btn-outline-primary mt-4">Code</a>
             </div>
 
-            <div class="col-md-5 offset-md-7 mt-4 mb-5 pt-5">
+            <div class="col-md-6 offset-md-6 mt-5 mb-5">
               <div class="ratio ratio-16x9"><img src="bugtracker-api.png"></div>
-              <h2 class="mt-5">BugTracker API</h2>
+              <h2 class="mt-4">BugTracker REST API</h2>
               <p class="lead mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, aliquid! 
-                Itaque corrupti magnam fugiat mollitia labore magni saepe veritatis voluptatum alias fugit.
-                Explicabo ducimus sequi aut corporis odio repellendus? Lorem ipsum dolor sit amet
+                This project is a connecting element of BugTracker and BugTracker TG Bot, 
+                because it allows me to create a telegram bot based on data from BugTracker
               </p> 
               <button type="button" class="btn btn-lg btn-primary mt-4 me-3">Live</button>
               <a href="https://github.com/Haenes/BugTracker/tree/main/app/api" target="_blank" class="btn btn-lg btn-outline-primary mt-4">Code</a>
             </div>
 
-            <div class="col-md-5 mt-4 mb-5 pt-5">
-              <div class="ratio ratio-16x9"><img src="bugtracker-tg-bot.png"></div>
-              <h2 class="mt-5">BugTracker Telegram Bot</h2>
+            <div class="col-md-6 mt-5 mb-5">
+              <div class="ratio image-hq"><img src="bugtracker-tg-bot.png"></div>
+              <h2 class="mt-4">BugTracker TG Bot</h2>
               <p class="lead mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, aliquid! 
-                Itaque corrupti magnam fugiat mollitia labore magni saepe veritatis voluptatum alias fugit.
-                Explicabo ducimus sequi aut corporis odio repellendus? Lorem ipsum dolor sit amet
+                This is an asynchronous telegram bot that has all the basic functionality of BugTracker, 
+                but in the form of a bot: project management and task management for these projects
               </p> 
-              <button type="button" class="btn btn-lg btn-primary mt-4 me-3">Live</button>
+              <!-- <button type="button" class="btn btn-lg btn-primary mt-4 me-3">Live</button> -->
+              <a href="https://t.me/bugs_tracker_bot" target="_blank" class="btn btn-lg btn-primary mt-4 me-3">Live</a>
               <a href="https://github.com/Haenes/telegram-bot" target="_blank" class="btn btn-lg btn-outline-primary mt-4">Code</a>
             </div>
 
@@ -145,8 +145,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 
-  <footer>
-    <div class="col-sm text-center text-black">
+  <footer class="bg-white py-4">
+    <div class="col-sm text-center text-black footer">
       <p>Haenes <script>document.write(new Date().getFullYear())</script> </p>
   </footer>
 
