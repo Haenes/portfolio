@@ -1,0 +1,31 @@
+.bg-color {
+    background: rgba(247, 247, 247, 1);
+}
+
+.about__skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.about__skill {
+    letter-spacing: 1px;
+    padding: .7rem .7rem;
+    margin-left: -2rem;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+    background: #eee;
+    color: #666;
+    border-radius: 5px;
+    font-weight: 400;
+  }
+
+ul {
+    list-style-type: none;
+}
+
+.caret-off::before {
+  display: none !important;
+}
+.caret-off::after {
+  display: none !important;
+}
