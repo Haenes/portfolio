@@ -29,11 +29,6 @@ ul {
   display: none !important;
 }
 
-/* The best size for images to make them look better than a piece of shit */
-.image-hq {
-  --bs-aspect-ratio: 51%;
-}
-
 .meme {
   display: block;
 }
