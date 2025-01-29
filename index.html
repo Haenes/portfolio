@@ -1,160 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Haenes portfolio</title>
-      <link href="static/style.min.css" rel="stylesheet">
-  </head>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Haenes portfolio</title>
+            <link href="static/style.min.css" rel="stylesheet">
+    </head>
 
-  <body class="bg-light-subtle">
+    <body class="bg-light-subtle">
 
-    <header>
-      <nav class="navbar navbar-expand-lg border-bottom fixed-top bg-white p-3">
-        <div class="container-fluid">          
-          <span class="navbar-brand col-lg-3 me-0">Kirill Konovalenko</span>          
+        <header>
+            <nav class="navbar navbar-expand-lg border-bottom fixed-top bg-white p-3">
+                <div class="container-fluid">
+                    <span class="navbar-brand col-lg-3 me-0">Kirill Konovalenko</span>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-            <div class="collapse navbar-collapse d-lg-flex" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse d-lg-flex" id="navbarSupportedContent">
 
-                <ul class="navbar-nav col-lg-8 justify-content-lg-center">
-                  <li><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                  <li><a class="nav-link active" aria-current="page" href="#about">About</a></li>
-                  <li><a class="nav-link active" aria-current="page" href="#projects">Projects</a></li>
-                </ul>
-                <div class="d-lg-flex col-lg-4 justify-content-lg-end">
+                        <ul class="navbar-nav col-lg-8 justify-content-lg-center">
+                            <li>
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li>
+                                <a class="nav-link active" aria-current="page" href="#about">About</a>
+                            </li>
+                            <li>
+                                <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+                            </li>
+                        </ul>
 
-                  <div class="btn-group">
-                    <a class="btn btn-primary dropdown-toggle caret-off" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">Resume</a>
-                    <ul class="dropdown-menu dropdown-menu-lg-end dropdown-menu-start">
-                      <li><a class="dropdown-item" href="resume/resume-eng.pdf" target="_blank" download>Eng</a></li>
-                      <li><a class="dropdown-item" href="resume/resume-rus.pdf" target="_blank" download>Rus</a></li>
-                    </ul>
-                  </div>
+                        <div class="d-lg-flex col-lg-4 justify-content-lg-end">
+                            <div class="btn-group">
+                                <a
+                                    class="btn btn-primary dropdown-toggle caret-off"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    data-bs-display="static"
+                                    aria-expanded="false"
+                                >
+                                    Resume
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-lg-end dropdown-menu-start">
+                                    <li>
+                                        <a class="dropdown-item" href="resume/resume-eng.pdf" target="_blank">Eng</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="resume/resume-rus.pdf" target="_blank">Rus</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container-fluid">
+
+            <div class="px-2 pt-5 mt-5 pb-2 text-start">
+                <h3 class="text-start mt-5 pt-5 lead">Hello 👋</h3>
+                <div class="col-sm-9 mt-4 mb-5 pb-5">
+                    <h1>I'm Kirill! A Web Developer Building Awesome Webapps And Websites That Powers The Internet</h1>
+                    <a href="#projects" class="btn btn-lg btn-primary mt-4 mb-5">Projects</a>
+                </div>
+            </div>
+
+            <div class="px-2 pt-5 pb-2 text-start" id="about">
+                <h3 class="mt-5 pt-5 lead">About 🙋🏻‍♂️</h3>
+
+                <div class="col-sm-12 mt-4 mb-5 pb-5">
+                    <h1 class="col-sm-9">
+                        Here you will find more information about me, what I do,
+                        and list of my current skills in programming
+                    </h1>
+
+                    <div class="row">
+                        <div class="col-md-5 mt-4 mb-5 pt-5">
+                            <h5>My Story</h5>
+                            <p class="lead mt-4">
+                                Programming interested me back in the 8th grade, then I made simple HTML pages
+                                without much meaning. At the same time, I realized that I wanted to connect my life
+                                with programming. Unfortunately, I did not succeed in entering a university to study
+                                computer science or similar field. Nevertheless, I began to study the things that
+                                interest me on my own and, to some extent, succeeded in this (as it seems to me 😂)
+                                there is a long way ahead of learning new things and I am ready to go through it!
+                            </p>
+                        </div>
+
+                        <div class="col-md-5 offset-md-2 mt-4 mb-5 pt-5">
+                            <h5>My skills</h5>
+                            <ul class="skills mt-4">
+                                <li class="skill">PYTHON</li>
+                                <li class="skill">FASTAPI</li>
+                                <li class="skill">DJANGO</li>
+                                <li class="skill">DRF</li>
+                                <li class="skill">FLASK</li>
+                                <li class="skill">PYTEST</li>
+                                <li class="skill">UNITTEST</li>
+                                <li class="skill">GUNICORN</li>
+                                <li class="skill">NGINX</li>
+                                <li class="skill">HTML</li>
+                                <li class="skill">CSS</li>
+                                <li class="skill">JS</li>
+                                <li class="skill">REACT</li>
+                                <li class="skill">REACT-ROUTER</li>
+                                <li class="skill">TAILWIND CSS</li>
+                                <li class="skill">BOOTSTRAP</li>
+                                <li class="skill">POSTGRESQL</li>
+                                <li class="skill">MYSQL</li>
+                                <li class="skill">REDIS</li>
+                                <li class="skill">GIT</li>
+                                <li class="skill">SQLALCHEMY</li>
+                                <li class="skill">ALEMBIC</li>
+                                <li class="skill">CELERY</li>
+                                <li class="skill">RABBITMQ</li>
+                                <li class="skill">AIOGRAM</li>
+                                <li class="skill">AIOGRAM-DIALOG</li>
+                                <li class="skill">DOCKER</li>
+                                <li class="skill">UBUNTU</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="px-2 pt-5 text-start" id="projects">
+                <h3 class="text-start mt-5 pt-5 lead">Projects 🛠️</h3>
+
+                <div class="col-sm-12 mt-4 mb-5 pb-5">
+                    <h1 class="col-sm-9">
+                        Here you will find some of the main personal projects
+                        that I created with the project details
+                    </h1>
+
+                    <div class="row">
+                        <div class="col-md-6 mt-5 mb-5">
+                            <h2 class="mt-4">BugTracker</h2>
+                            <p class="lead mt-4">
+                                This is a web application, a simple intuitive version of the bug tracker for single use
+                                without unnecessary (sometimes useless) things. Register and use it, without long
+                                attempts to figure out how, what and why works. In addition, here you will find
+                                Drag'n'drop of task cards on the project board, and convenient customization of the
+                                application for yourself: color mode (Light/Dark/Auto)
+                                and language (English or Russian) with time format.
+                            </p>
+                            <p class="lead">
+                                Later, I completely rewrote it as a SPA using a new stack: FastAPI, React, react-router
+                                and Tailwind CSS. Retaining all the old functionality, adding full asynchrony,
+                                JWT and Bearer token authentication, for the browser and API, respectively and
+                                changes to the database, added Alembic to track db migrations.
+                            </p>
+
+                            <p class="lead">
+                                <b>Initial stack:</b> Django, MySQL then migrate to PostgreSQL, NGINX,
+                                Redis, RabbitMQ, HTML, CSS, Bootsrap and JS.
+                            </p>
+                            <p class="lead">
+                                <b>Rework stack:</b> FastAPI, PostgreSQL, Redis, Celery, Alembic,
+                                NGINX, React, React-router and Tailwind CSS.
+                            </p>
+
+                            <a
+                                href="https://github.com/Haenes/bugtracker-old"
+                                target="_blank"
+                                class="btn btn-lg btn-outline-primary mt-4 me-3"
+                            >
+                                Initial code
+                            </a>
+                            <a
+                                href="https://github.com/Haenes/bugtracker"
+                                target="_blank"
+                                class="btn btn-lg btn-outline-primary mt-4"
+                            >
+                                Rework code
+                            </a>
+                        </div>
+
+                        <div class="col-md-6 offset-md-6 mt-5 mb-5">
+                            <h2 class="mt-4">BugTracker REST API</h2>
+                            <p class="lead mt-4">
+                                This project is a connecting element of BugTracker and BugTracker telegram-bot,
+                                because it allows me to create a telegram bot based on data from BugTracker.
+                            </p>
+                            <p class="lead">
+                                Later, I completely rewrote it using FastAPI, which gave asynchrony.
+                                Implemented JWT and Bearer token authentication. The reverse proxy nginx
+                                server became responsible for trottling.
+                            </p>
+
+                            <p class="lead"><b>Initial stack:</b> Django, DRF, Redis and PostgreSQL.</p>
+                            <p class="lead"><b>Rework stack:</b> FastAPI, PostgreSQL, Redis, Celery, Alembic.</p>
+
+                            <a
+                                href="https://github.com/Haenes/bugtracker-old/tree/main/app/api"
+                                target="_blank"
+                                class="btn btn-lg btn-outline-primary mt-4 me-3"
+                            >
+                                Initial code
+                            </a>
+                            <a
+                                href="https://github.com/Haenes/bugtracker/tree/main/backend"
+                                target="_blank"
+                                class="btn btn-lg btn-outline-primary mt-4"
+                            >
+                                Rework code
+                            </a>
+                        </div>
+
+                        <div class="col-md-6 mt-5 mb-5">
+                            <h2 class="mt-4">BugTracker telegram-bot</h2>
+                            <p class="lead mt-4">
+                                This is an asynchronous telegram bot that has all the main functionality of BugTracker
+                                web, but in the form of a bot: project management and task management for these projects.
+                                It is also possible to change the language and time zone.
+                            </p>
+                            <p class="lead">
+                                Later, I completely rewrote it using aiogram-dialog library, coupled with
+                                a new asynchronous API, which significantly improved the user experience.
+                                I also added alembic to track db migrations.
+                            </p>
+
+                            <p class="lead">
+                                <b>Initial stack:</b> Aiogram, PostgreSQL, SQLAlchemy, Redis.
+                            </p>
+                            <p class="lead">
+                                <b>Rework stack:</b> Aiogram, aiogram-dialog,
+                                PostgreSQL, SQLAlchemy, Redis, Alembic.
+                            </p>
+
+                            <a
+                                href="https://t.me/bugs_tracker_bot"
+                                target="_blank"
+                                class="btn btn-lg btn-primary mt-4 me-3"
+                            >
+                                Live
+                            </a>
+                            <a
+                                href="https://github.com/Haenes/telegram-bot"
+                                target="_blank"
+                                class="btn btn-lg btn-outline-primary mt-4"
+                            >
+                                Code
+                            </a>
+                        </div>
+                    </div>
 
                 </div>
             </div>
-        </div>
-      </nav>
-    </header>
+        </main>
 
-    <main class="container-fluid">
+        <script src="static/bootstrap.bundle.min.js"></script>
+    </body>
 
-      <div class="px-2 pt-5 mt-5 pb-2 text-start">
-          <h3 class="text-start mt-5 pt-5 lead">Hello 👋</h3>
-          <div class="col-sm-9 mt-4 mb-5 pb-5">
-              <h1>I'm Kirill! A Web Developer Building Awesome Webapps And Websites That Powers The Internet</h1>
-              <a href="#projects" class="btn btn-lg btn-primary mt-4 mb-5">Projects</a>
-          </div>
-      </div>
-
-      <div class="px-2 pt-5 pb-2 text-start" id="about">
-        <h3 class="mt-5 pt-5 lead">About 🙋🏻‍♂️</h3>
-        <div class="col-sm-12 mt-4 mb-5 pb-5">
-          <h1 class="col-sm-9">Here you will find more information about me, what I do, and list of my current skills in programming</h1>
-          <div class="row">
-            <div class="col-md-5 mt-4 mb-5 pt-5">
-              <h5>My Story</h5>
-              <p class="lead mt-4">
-                Programming interested me back in the 8th grade, then I made simple HTML pages without much meaning. 
-                At the same time, I realized that I wanted to connect my life with programming. 
-                Unfortunately, I did not succeed in entering a university to study computer science or similar field. 
-                Nevertheless, I began to study the things that interest me on my own and, to some extent, 
-                succeeded in this (as it seems to me 😂) there is a long way ahead of learning new things and I am ready to go through it!
-              </p>
+    <footer class="bg-white py-4">
+            <div class="col-sm text-center text-black footer">
+                <p>
+                    <script>document.write(new Date().getFullYear())</script>
+                    Haenes
+                </p>
             </div>
-
-            <div class="col-md-5 offset-md-2 mt-4 mb-5 pt-5">
-              <h5>My skills</h5>
-              <ul class="skills mt-4">
-                <li class="skill">PYTHON</li>
-                <li class="skill">DJANGO</li>
-                <li class="skill">DRF</li>
-                <li class="skill">FASTAPI</li>
-                <li class="skill">FLASK</li>
-                <li class="skill">AIOGRAM</li>
-                <li class="skill">CELERY</li>
-                <li class="skill">RABBITMQ</li>
-                <li class="skill">NGINX</li>
-                <li class="skill">GUNICORN</li>
-                <li class="skill">DOCKER</li>
-                <li class="skill">UBUNTU</li>
-                <li class="skill">GIT</li>
-                <li class="skill">CSS</li>
-                <li class="skill">GITHUB</li>
-                <li class="skill">BOOTSTRAP</li>
-                <li class="skill">MYSQL</li>
-                <li class="skill">POSTGRESQL</li>
-                <li class="skill">REDIS</li>
-                <li class="skill">SQLALCHEMY</li>
-                <li class="skill">ALEMBIC</li>
-                <li class="skill">HTML</li>
-                <li class="skill">JS</li>
-              </ul>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="px-2 pt-5 text-start" id="projects">
-        <h3 class="text-start mt-5 pt-5 lead">Projects 🛠️</h3>
-        <div class="col-sm-12 mt-4 mb-5 pb-5">
-          <h1 class="col-sm-9">Here you will find some of the main personal projects that I created with the project details</h1>
-          <div class="row">
-
-            <div class="col-md-6 mt-5 mb-5">
-              <h2 class="mt-4">BugTracker</h2>
-              <p class="lead mt-4">
-                This is a web application, a simple intuitive version of the bug tracker for single use 
-                without unnecessary (sometimes useless) things. Register and use it, without long attempts 
-                to figure out how, what and why works. In addition, here you will find Drag'n'drop of task cards 
-                on the project board, and convenient customization of the application for yourself: 
-                color mode (Light/Dark/Auto), language (English or Russian) and time zone.
-              </p>
-              <p class="lead"><b>Used techs:</b> Python, Django, MySQL, Redis, HTML, CSS, Bootsrap and JS.</p>
-              <a href="https://bugtracker.space/" target="_blank" class="btn btn-lg btn-primary mt-4 me-3">Live</a>
-              <a href="https://github.com/Haenes/BugTracker" target="_blank" class="btn btn-lg btn-outline-primary mt-4">Code</a>
-            </div>
-
-            <div class="col-md-6 offset-md-6 mt-5 mb-5">
-              <h2 class="mt-4">BugTracker REST API</h2>
-              <p class="lead mt-4">
-                This project is a connecting element of BugTracker and BugTracker TG Bot, 
-                because it allows me to create a telegram bot based on data from BugTracker.
-              </p> 
-              <p class="lead"><b>Used techs:</b> Python, Django REST Framework, Django, Redis and MySQL.</p>
-              <a href="https://github.com/Haenes/BugTracker/tree/main/app/api" target="_blank" class="btn btn-lg btn-outline-primary mt-4">Code</a>
-            </div>
-
-            <div class="col-md-6 mt-5 mb-5">
-              <h2 class="mt-4">BugTracker TG Bot</h2>
-              <p class="lead mt-4">
-                This is an asynchronous telegram bot that has all the basic functionality of BugTracker, 
-                but in the form of a bot: project management and task management for these projects.
-                It is also possible to change the language and time zone.
-              </p>
-              <p class="lead">Yes, I know that this is an asynchronous bot that makes requests to a synchronous API... for now.</p>
-              <img class="meme mb-3" src="jc.jpg" alt="What a shame meme from Deus Ex 2000">
-              <p class="lead"><b>Used techs:</b> Python, Aiogram, PostgreSQL, SQLAlchemy, Redis, BugTracker API and requests.</p>
-              <a href="https://t.me/bugs_tracker_bot" target="_blank" class="btn btn-lg btn-primary mt-4 me-3">Live</a>
-              <a href="https://github.com/Haenes/telegram-bot" target="_blank" class="btn btn-lg btn-outline-primary mt-4">Code</a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <script src="static/bootstrap.bundle.min.js"></script>
-  </body>
-
-  <footer class="bg-white py-4">
-    <div class="col-sm text-center text-black footer">
-      <p>Haenes <script>document.write(new Date().getFullYear())</script> </p>
-  </footer>
-
+    </footer>
 </html>
